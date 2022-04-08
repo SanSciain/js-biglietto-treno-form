@@ -12,7 +12,7 @@ btnGenerate.addEventListener("click",
 
         const userAge = document.getElementById("user-age").value;
 
-        if ((userName !== "") && (userTrip != NaN) && (userAge !== "")) {
+        if ((userName !== "") && (!isNaN(userTrip)) && (userAge !== "")) {
             let priceTicket = userTrip * perKm;
 
             let offer;
