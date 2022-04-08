@@ -40,7 +40,7 @@ btnGenerate.addEventListener("click",
 
         document.querySelector(".offer p").innerHTML = offer;
 
-        
+        document.getElementById("hidden").classList.remove("d-none")
 
     }
 )
@@ -54,6 +54,7 @@ btnAnnul.addEventListener("click",
 
         document.getElementById("user-age").value = "";
 
+        document.getElementById("hidden").classList.add("d-none")
     }
 )
 
